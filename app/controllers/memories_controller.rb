@@ -1,9 +1,9 @@
-class MemoriesController < ApplicationController
+class MemoriesController < ProtectedController
   before_action :set_memory, only: [:show, :update, :destroy]
 
   # GET /memories
   def index
-    @memories = Memory.all
+    @memories = current_user.memories
 
     render json: @memories
   end
@@ -15,7 +15,7 @@ class MemoriesController < ApplicationController
 
   # POST /memories
   def create
-    @memory = Memory.new(memory_params)
+    @memory = current_user.memories.build(memory_params)
 
     if @memory.save
       render json: @memory, status: :created, location: @memory
@@ -47,6 +47,6 @@ private
 
   # Only allow a trusted parameter "white list" through.
   def memory_params
-    params.require(:memory).permit(:title, :description, :people)
+    params.require(:memory).permit(:title, :description, :people, :id, :user)
   end
 end
