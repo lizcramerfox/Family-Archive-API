@@ -38,14 +38,15 @@ class MemoriesController < ApplicationController
     @memory.destroy
   end
 
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_memory
-      @memory = Memory.find(params[:id])
-    end
+private
 
-    # Only allow a trusted parameter "white list" through.
-    def memory_params
-      params.require(:memory).permit(:title, :description, :people)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_memory
+    @memory = Memory.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def memory_params
+    params.require(:memory).permit(:title, :description, :people)
+  end
 end
