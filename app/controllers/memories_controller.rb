@@ -4,7 +4,6 @@ class MemoriesController < ProtectedController
   # GET /memories
   def index
     @memories = current_user.memories
-
     render json: @memories
   end
 
