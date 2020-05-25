@@ -1,27 +1,33 @@
 # Family Archive App
 This is a simple React-based SPI application which allows an authenticated user to create, read, update, and delete a set of their memories (v1 is text-only), while being able to access those memories from any device with an internet connection. User authentication and data storage are handled by a custom Rails-based API (see links below).
 
-#### Application Links
+### Application Links
 - [Client Repository](https://github.com/lizcramerfox/family-archive-client)
 - [API Repository](https://github.com/lizcramerfox/Family-Archive-API)
 - [Deployed API](https://nameless-earth-46490.herokuapp.com/)
 - [Deployed Client](https://lizcramerfox.github.io/family-archive-client/)
 
-#### Technologies Used
-- Express **|** JavaScript **|** AJAX
-- Ruby on Rails **|** Ruby
-- HTML **|** CSS **|** Bootstrap
+### Technologies Used
+- Express | JavaScript | AJAX
+- Ruby on Rails | Ruby
+- HTML | CSS | Bootstrap
 
-#### Dependencies
-To install dependencies, run the following commands:
-- [Client](https://github.com/lizcramerfox/family-archive-client): `npm install`
-- [API](https://github.com/lizcramerfox/Family-Archive-API): `bundle install`
+### Local Setup
+#### [Client](https://github.com/lizcramerfox/family-archive-client):
+  1. [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone) this repository
+  1. Run `npm install` to install dependencies
+  1. Run `npm server` to start the local test server
+  
+#### [API](https://github.com/lizcramerfox/Family-Archive-API):
+  1. [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone) this repository
+  1. Run `bundle install` to install dependencies
+  1. Run `rails server` to start the local test server
 
-#### Application Screenshot
+### Application Screenshot
 >![https://lizcramerfox.github.io/family-archive-client/](https://i.imgur.com/MDBSAqy.png)
 
 # Planning & Development
-#### Project Managment & Development Strategy
+### Project Managment & Development Strategy
 > Although this wasn't a team project, I still made an early decision to use a [Gihub Project Board](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) as my central planning and development environment. The kanban dashboard's automated interaction with the linked repositories' issue queues made it possible to break down the project into smaller and smaller tranches on an as-needed basis, allowing me to focus on invidual, solvable problems.
 >
 > In the kanban, linked issues from the repo queues were an easy place to keep track of both my planning notes (checklists, reminders, links to trainings & source documentation, etc.) *and* notes tracking my development process - the latter of which proved exceptionally helpful in crafting meaningful commit messages. I also found myself pushing commits more frequently because I would close each issue in the kanban by referencing the issue's ID number in a commit message.
