@@ -1,4 +1,4 @@
-git s# Family Archive App
+# Family Archive App
 This is a simple React-based SPI application which allows an authenticated user to create, read, update, and delete a set of their memories (v1 is text-only), while being able to access those memories from any device with an internet connection. User authentication and data storage are handled by a custom Rails-based API (see links below).
 
 #### Application Links
