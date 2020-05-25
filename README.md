@@ -12,9 +12,13 @@ This is a simple React-based SPI application which allows an authenticated user 
 - Ruby on Rails **|** Ruby
 - HTML **|** CSS **|** Bootstrap
 
+#### Dependencies
+To install dependencies, run the following commands:
+- [Client](https://github.com/lizcramerfox/family-archive-client): `npm install`
+- [API](https://github.com/lizcramerfox/Family-Archive-API): `bundle install`
+
 #### Application Screenshot
 >![https://lizcramerfox.github.io/family-archive-client/](https://i.imgur.com/MDBSAqy.png)
-
 
 # Planning & Development
 #### Project Managment & Development Strategy
@@ -25,7 +29,7 @@ This is a simple React-based SPI application which allows an authenticated user 
 > Having had very limited experience with the React framework prior to beginning this project, I found the client side of this project particularly challenging, as I was essentially teaching myself how to implement a working React application as I went through each step. This was where my earlier planning in the Github Project Board paid of most of all, as it provided a much-needed roadmap during the learning process. I am forever grateful that this project pushed me through what was a very steep learning curve, because learning every last possible thing about React programming has since become one of my career-life's missions (and a bit a personal one too).
 
 #### Screenshot of Planning Board
-> ![](https://i.imgur.com/HyuwA5u.png)
+>![](https://i.imgur.com/HyuwA5u.png)
 
 #### Entity Relationship Diagram (ERD)
 >![ERD](https://i.imgur.com/iXq1296.jpg)
